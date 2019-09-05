@@ -1,0 +1,9 @@
+.TicTacToeContainer {
+    width: 216px;
+    height: 216px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0 auto;
+}

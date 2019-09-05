@@ -1,0 +1,9 @@
+.TicTacToeBox{
+    width: 70px;
+    height: 70px;
+    border: 1px dashed black;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    cursor: pointer;
+}
