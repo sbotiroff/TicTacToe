@@ -1,9 +1,9 @@
 import React from 'react';
 
-function WinnerStatus(){
+function WinnerStatus({winner}){
     return(
         <div>
-            <p>Winner: </p>
+            <p>Winner: {winner}</p>
         </div>
     );
 }

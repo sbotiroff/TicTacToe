@@ -1,9 +1,9 @@
 import React from 'react';
 
-function PlayerTurn(){
+function PlayerTurn(props){
     return(
         <div>
-            <p>Turn: </p>
+            <p>Player {props.isXTurn?'X':'O'}'s turn</p>
         </div>
     );
 }
