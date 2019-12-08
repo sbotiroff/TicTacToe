@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import "./WinnerStatus.css";
 
-function WinnerStatus({winner}){
-    return(
-        <div>
-            <p>Winner: {winner}</p>
-        </div>
-    );
+function winnerStatus({ winner }) {
+  return (
+    <div className="WinnerStatus">
+      <p>{winner}</p>
+    </div>
+  );
 }
 
-export default WinnerStatus;
+export default winnerStatus;
