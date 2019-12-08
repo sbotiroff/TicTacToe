@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import "./PlayerTurn.css";
 
-function PlayerTurn(props){
-    return(
-        <div>
-            <p>Player {props.isXTurn?'X':'O'}'s turn</p>
-        </div>
-    );
+function playerTurn(props) {
+  return (
+    <div className="PlayerTurn">
+      <p>Player {props.isXTurn ? "X" : "O"}'s turn</p>
+    </div>
+  );
 }
 
-export default PlayerTurn;
+export default playerTurn;
